@@ -1,9 +1,9 @@
 import Appointment from '../models/appointment';
 import { isEqual } from 'date-fns';
 
-// interface CreateAppointmentDTO {
-//   date: Date;
-// }
+interface CreateAppointmentDTO {
+  date: Date;
+}
 
 class AppointmentsRepository {
   constructor() {
